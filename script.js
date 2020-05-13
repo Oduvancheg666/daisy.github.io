@@ -94,10 +94,11 @@ let phrases = [
   "Стремитесь не к успеху, а к ценностям, которые он дает",
   "Сложнее всего начать действовать, все остальное зависит только от упорства.",
   "Надо любить жизнь больше, чем смысл жизни.",
-												
+	"ЧО СМОТРИШЬ?",
+  
 												
 ]
 
-let randIndex = Math.floor(Math.random() * phrases.length);
+le2t randIndex = Math.floor(Math.random() * phrases.length);
 alert(phrases[randIndex]);
 
