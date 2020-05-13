@@ -13,7 +13,7 @@ let phrases = [
   "Stretching his hand out to catch the stars, he forgets the flowers at his feet. — Протягивая руки к звездам, человек забывает о цветах у его ног.",												
   "When you start thinking a lot about your past, it becomes your present and you can’t see your future without it. — Когда начинаешь много думать о прошлом, оно становится твоим настоящим, за которым ты уже не можешь разглядеть будущее.",												
   "Memories take us back, dreams take us forward. — Воспоминания тянут нас назад, мечты заставляют двигаться вперед.",												
-"Be careful with your thoughts. — they are the beginning of deeds — Будь осторожен со своими мыслями, ведь они — начало поступков.",												
+  "Be careful with your thoughts. — they are the beginning of deeds — Будь осторожен со своими мыслями, ведь они — начало поступков.",												
   "Remember that the most dangerous prison is the one in your head. — Помни, что самая опасная тюрьма находится в твоей голове.",												
   "Все мы проживаем разную жизнь, совершаем свои собственные ошибки, достигаем определенных успехов и реализуем свои задумки. Но в большинстве своем, наша жизнь похожа на жизнь других, поэтому нам близки высказывания о ней:",												
   "Life is what happens while you’re busy making other plans — Жизнь — это то, что случается, пока ты строишь другие планы",												
@@ -94,7 +94,7 @@ let phrases = [
   "Стремитесь не к успеху, а к ценностям, которые он дает",
   "Сложнее всего начать действовать, все остальное зависит только от упорства.",
   "Надо любить жизнь больше, чем смысл жизни.",
-	"ЧО СМОТРИШЬ?",
+  "ЧО СМОТРИШЬ?",
   
 												
 ]
