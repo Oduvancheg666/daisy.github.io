@@ -1,0 +1,7 @@
+  body{
+    background: url(https://cdn.pixabay.com/photo/2015/11/16/16/28/bird-1045954_960_720.jpg); /* Путь к фоновому изображению */
+    background-color: #56a3e2; /* Цвет фона */
+    background-size: 100%;
+
+    
+  }
