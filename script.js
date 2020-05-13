@@ -99,6 +99,6 @@ let phrases = [
 												
 ]
 
-let randIndex = Math.floor(Math.random() * phrases.length);
+let randIndex = Math.floor(Math.random() * phrases.length); 
 alert(phrases[randIndex]);
 
