@@ -1,7 +1,7 @@
 html, body {
       height: 100%;
       width:100%;
-      font-family: 'Inter', sans-serif;
+      font-family: 'Roboto Slab', serif;
       overflow: hidden;
   }
 body {
@@ -22,19 +22,21 @@ input {
     left: 50%;
     margin-left: -250px;
     background: rgba(230, 225, 225, 0.65); /* фон кнопки */
-    font:66px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font:66px Trebuchet MS, Arial, Helvetica, sans-serif; 
     font-weight:bold; 
     position: absolute;
     padding:11px 32px;
     
   }
-
+.form {
+  color: white;
+}
 p {
   margin-top: 34%;
   vertical-align: middle;
+  font-size: 70px;
   color: white;
-  font:66px URW Chancery L, sans-serif; 
   text-shadow: 0px 0px 10px rgb(0, 0, 0);
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
 }
