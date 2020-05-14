@@ -33,7 +33,7 @@ p {
   margin-top: 34%;
   vertical-align: middle;
   color: white;
-  font:66px URW Chancery L, cursive; 
+  font:66px URW Chancery L, sans-serif; 
   text-shadow: 0px 0px 10px rgb(0, 0, 0);
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: black;
