@@ -1,4 +1,4 @@
-/** let phrases = [
+/** le1t phrases = [
   "Do something with passion or not it all — Делай что-то со страстью или не делай вообще",												
   "Illusion is the first of all pleasures — Иллюзия — высшее наслаждение",												
   "It's better to have ideals and dreams than nothing — Лучше иметь мечты и идеалы, чем ничего",												
@@ -99,8 +99,8 @@
 												
 ]
 
-let randIndex = Math.floor(Math.random() * phrases.length); 
-alert(phrases[randIndex]);
+l3et randIndex = Math.floor(Math.random() * phrases.length); 
+al2ert(phrases[randIndex]);
 
 
 **/
