@@ -7,15 +7,6 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
   </head>
-
-  <body>
-    <form class="form"; onclick="let randIndex = Math.floor(Math.random() * phrases.length);
-      document.getElementById('button').onclick = function() {
-      document.getElementById('text').textContent = (phrases[randIndex]); }"> 
-    <input type="button" id="button" value="Random Daisy" />
-    <p id="text"> </p> 
-    </form>
-    
 <script> let phrases = [
   "ПАРНИ НУ ВЫ ЧЕГО!",
   "Ух я щас хуёв навтыкаю.",
@@ -74,5 +65,14 @@
 
 </script>
     
+  <body>
+    <form class="form"; onclick="let randIndex = Math.floor(Math.random() * phrases.length);
+      document.getElementById('button').onclick = function() {
+      document.getElementById('text').textContent = (phrases[randIndex]); }"> 
+    <input type="button" id="button" value="Random Daisy." />
+    <p id="text"> </p> 
+    </form>
+    
+
   </body>
 </html>
