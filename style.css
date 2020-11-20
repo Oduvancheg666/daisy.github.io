@@ -1,42 +1,156 @@
-html, body {
-      height: 100%;
-      width:100%;
-      font-family: 'Roboto Slab', serif;
-      overflow: hidden;
-  }
-body {
-    width: 100%;
-    height: 100%;
-    background: url(https://i.pinimg.com/originals/38/76/e8/3876e881f99b50e32a0107cbdffe6355.jpg); /* Путь к фоновому изображению */
-    background-color: rgba(0, 0, 0, .5);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
+html {
+   -webkit-text-size-adjust : 100%;
+   text-size-adjust         : 100%
 
 }
-input {
-    height: 150px;
-    width: 500px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.7);
-    top: 5%;
-    left: 50%;
-    margin-left: -250px;
-    background: rgba(230, 225, 225, 0.65); /* фон кнопки */
-    font:66px Trebuchet MS, Arial, Helvetica, sans-serif; 
-    font-weight:bold; 
-    position: absolute;
-    padding:11px 32px;
-    
-  }
-.form {
-  color: white;
+
+html, body {
+    overflow-x: hidden;
+	margin: 10px 5px ;
+
 }
-p {
-  margin-top: 34%;
-  vertical-align: middle;
-  font-size: 70px;
-  color: white;
-  text-shadow: 0px 0px 10px rgb(0, 0, 0);
-  -webkit-text-stroke-width: 2.5px;
-  -webkit-text-stroke-color: black;
+
+h1 {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	color: #3C3C3C;
+	text-decoration: underline;
+	margin-top: 5px;
+
+}
+body {
+	background: #EDEDED;
+
+
+}
+
+.dish {
+	font-family: Roboto Slab, serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	color: #4D4646;
+}
+ 
+.ingredients {
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #4D4646;
+	
+}
+
+.cooking {
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #4D4646;
+	
+}
+
+.note {
+	position: relative;
+	width: auto;
+	height: 180px;
+	margin: 30px;
+	text-align: center;
+}
+
+.note p {
+	max-width: 800px;
+	position: absolute;
+	top: 20%;
+	font-family: Poiret One;
+	font-style: normal;
+	font-size: 24px;
+	text-align: center;
+	color: #767676;
+}
+
+li {
+	margin-bottom: 4px;
+	list-style-position: outside;
+	list-style-type: disc;
+  	
+
+}
+
+input:checked + span {
+    text-decoration: line-through;
+   }
+
+ul {
+	padding-inline-start: 24px;
+}
+
+
+
+#logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 165px;
+    width: 214px;
+}
+
+
+
+#goTop {
+	position: fixed;
+	left: 85%;
+	top: 90%;
+	opacity: 0.44; 
+   }
+
+#salateContent {
+	display: none;
+}
+
+#salatButton {
+	width: 49.2%;
+	height: 45px;
+	text-align:center; 
+	font-family: Roboto, sans-serif;
+	font-weight: 900;
+	font-size: 23px;
+	text-align: center;
+	margin-top: 5px;
+	float: right;
+
+	border-color: #3C3C3C;
+ 
+
+}
+
+#mainButton {
+	width: 49.2%;
+	height: 45px;
+	text-align:center; 
+	font-family: Roboto, sans-serif;
+	font-size: 23px;
+	text-align: center;
+	margin-top: 5px;
+	font-weight: 900;
+	float: left;
+
+	border-color: #3C3C3C;
+  }
+hr {
+	margin-top: 6em;
+}
+
+
+#music {
+	
+	position: absolute; 
+	left: 5%;
+	top: 5%;
 }
